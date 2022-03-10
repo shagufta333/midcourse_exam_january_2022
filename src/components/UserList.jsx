@@ -16,7 +16,7 @@ class UserList extends Component {
     let userList = this.state.users.map((user) => {
       return (
         <li key={user.id} className="users-item">
-          <p>{user.first_name}</p>
+          <p>{user.first_name} {user.last_name}</p>
         </li>
       );
     });
