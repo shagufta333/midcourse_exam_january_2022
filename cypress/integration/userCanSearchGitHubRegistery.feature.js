@@ -9,7 +9,7 @@ describe("display list of users", () => {
     });
   });
 
-  it.only(" is expected to display expected user name", () => {
+  it(" is expected to display expected user name", () => {
     cy.get("#users-list").within(() => {
     cy.get(".users-item").first().should("contain", "George Bluth");
     });
