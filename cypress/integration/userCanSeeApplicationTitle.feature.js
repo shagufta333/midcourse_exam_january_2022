@@ -9,3 +9,4 @@ describe('Application main view', () => {
       .should('contain', 'GitHub Search engine')
   });
 });
+
