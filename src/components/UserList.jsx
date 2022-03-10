@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
+import { Item, ItemExtra } from 'semantic-ui-react';
+
 
 class UserList extends Component{
   state = { users: [] }
